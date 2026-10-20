@@ -25,6 +25,7 @@ const config: Config = {
       },
       animation: {
         marquee: "marquee 38s linear infinite",
+        carrossel: "marquee 45s linear infinite",
         float: "float 6s ease-in-out infinite",
         beam: "beam 7s ease-in-out infinite",
       },

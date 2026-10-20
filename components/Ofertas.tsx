@@ -11,9 +11,9 @@ export default function Ofertas() {
       <div className="wrap grid gap-12 lg:grid-cols-[.9fr_1.1fr] items-center">
         <Reveal className="relative order-2 lg:order-1">
           <div className="relative overflow-hidden rounded-[36px] border border-white/10">
-            <Image src="/media/cliente-oferta.webp" alt="Ofertas especiais LampTech" width={880} height={1140} sizes="(max-width: 1024px) 100vw, 480px" className="h-auto w-full" />
+            <Image src="/media/cliente-oferta.webp" alt="TV Box LampTech com comando, cabo HDMI e transformador" width={1024} height={1024} sizes="(max-width: 1024px) 100vw, 480px" className="h-auto w-full" />
             <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" />
-            <span className="glass absolute left-5 top-5 px-4 py-2 text-xs font-semibold uppercase tracking-[.2em] text-gold">Só este mês</span>
+            <span className="absolute left-5 top-5 rounded-full bg-ink/85 backdrop-blur px-4 py-2 text-xs font-semibold uppercase tracking-[.2em] text-gold">Só este mês</span>
           </div>
         </Reveal>
 

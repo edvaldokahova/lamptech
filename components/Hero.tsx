@@ -53,8 +53,8 @@ export default function Hero() {
             <Image
               src="/media/produto.webp"
               alt="TV Box LampTech com comando por voz"
-              width={1120}
-              height={1256}
+              width={1013}
+              height={1453}
               priority
               sizes="(max-width: 1024px) 90vw, 520px"
               className="h-auto w-full"

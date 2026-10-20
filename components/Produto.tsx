@@ -30,8 +30,8 @@ export default function Produto() {
             <Image
               src="/media/cliente-sofa.webp"
               alt="Cliente com a TV Box LampTech"
-              width={760}
-              height={1250}
+              width={978}
+              height={1563}
               sizes="(max-width: 1024px) 100vw, 560px"
               className="h-full max-h-[640px] w-full object-cover object-top"
             />
