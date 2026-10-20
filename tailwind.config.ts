@@ -12,6 +12,8 @@ const config: Config = {
         gold: { DEFAULT: "#F6C453", deep: "#E39B2D" },
         mist: "#EDE9FE",
       },
+      // Tailwind 3.3 não traz estes níveis de transparência por defeito
+      opacity: { 15: "0.15", 35: "0.35", 45: "0.45", 55: "0.55", 65: "0.65" },
       fontFamily: {
         display: ["var(--font-display)", "system-ui", "sans-serif"],
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
